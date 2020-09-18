@@ -464,75 +464,6 @@ button {
   background-color: blanchedalmond;
 }
 
-@media (max-width: 800px) {
-  body {
-   background-color: #c102d6;
-   width: 100%;
-   font-size: 100%;
-  }
-  div.header {
-    width: auto;
-  }
-
-/*.header {
-  display: inline-block;
-  margin: auto;
-  height: 0%;
-  padding: 1.35em;
-
-}
-h1 {
-  font-size: 8em;
-  width: max-content;
-}
-nav {
-  display: block;
-}
-ul.navigation {
-  display: grid;
-  margin: auto;
-  font-size: xx-large;
-  padding: 1em;
-  width: fit-content;
-}
-.intro {
-  display: block;
-}
-h2 {
-  font-size: 9em;
-}
-.aboutMe {
-  margin: auto;
-  text-align: center;
-  font-size: .4em;
-}
-.aboutMe button {
-  font-size: 5em;
-}
-p {
-  font-size: 6em;
-}
-.pictures div {
-  margin: 0;
-  font-size: 2em;
-  color: black;
-}
-
-footer button {
-  font-size: 4em;
-  margin-top: -1em;
-}
-
-footer a img {
-  width: 13%;
-  margin-top: 2em;
-
-} */
-}
-
-
-
-
 @media (max-width: 500px) {
   body {
     background-color: darkslateblue;
@@ -547,7 +478,6 @@ footer a img {
     margin: auto;
     height: 0%;
     padding: 1.35em;
-
   }
   h1 {
     font-size: 8em;
@@ -594,6 +524,26 @@ footer a img {
   footer a img {
     width: 13%;
     margin-top: 2em;
-
   }
+}
+@media (max-width: 800px) and (min-width: 501px) {
+  body {
+    background-color: grey;
+  }
+  h1 {
+    width: max-content;
+    font-size: 2em;
+  }
+  .intro {
+    display: block;
+  }
+  .pictures div {
+    margin: 3rem;
+  }
+  ul.navigation {
+    display: grid;
+    margin: auto;
+    font-size: .85em;
+    padding: .5em;
+  } 
 }
