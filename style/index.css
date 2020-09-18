@@ -401,7 +401,6 @@ button h3 {
   flex-flow: row nowrap;
   margin: 1em 1em 0 1em;
   border: 5px #ccffe6 solid;
-  box-shadow: 2px 2px 4px grey;
 }
 
 .mainImg {
@@ -419,6 +418,7 @@ button h3 {
 }
 
 h2 {
+  font-family: 'Lobster', cursive;
   font-size: 2em;
   text-shadow: 2px 2px 4px #ccffe6;
 }
@@ -465,11 +465,12 @@ footer a img {
 
 button {
   background-color: #ffffcc;
+  border-radius: .3em;
 }
 
 @media (max-width: 500px) {
   body {
-    background-color: darkslateblue;
+    background-color: #ccffe6;
     width: 100%;
     font-size: 100%;
   }
@@ -514,6 +515,7 @@ button {
     margin: auto;
     text-align: center;
     font-size: .4em;
+    color: #99cbff;
   }
 
   .aboutMe button {
@@ -539,7 +541,7 @@ button {
     width: 13%;
     margin-top: 2em;
   }
-  
+
 }
 
 @media (max-width: 800px) and (min-width: 501px) {
@@ -550,6 +552,10 @@ button {
   h1 {
     width: max-content;
     font-size: 2em;
+  }
+
+  h2 {
+    color:#99cbff; 
   }
 
   .intro {
@@ -564,7 +570,7 @@ button {
   ul.navigation {
     display: grid;
     margin: auto;
-    padding: .5em;
+    padding: .75em;
     position: relative;
   } 
 
