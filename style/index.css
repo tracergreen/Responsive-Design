@@ -378,11 +378,11 @@ h1 {
   text-shadow: 2px 2px 5px #ccffe6;
 }
 
-.nav {
+li {
   display: inline-flex;
   list-style-type: none;
 }
-.nav li:hover {
+.navigation ul li:hover {
   background-color: #ccffe6;
   border: 2px #ccffe6 solid;
 }
@@ -467,9 +467,19 @@ button {
 @media (max-width: 500px) {
   body {
     background-color: darkslateblue;
-    width: auto;
+    width: 100%;
+    font-size: 1em;
   }
   .header {
-    width: 100%;
+    width: auto;
+    display: inline;
+  }
+  h1 {
+    font-size: 1.2em;
+    margin: none;
+    padding: none;
+  }
+  .intro {
+    display: block;
   }
 }
