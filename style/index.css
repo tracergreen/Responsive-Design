@@ -468,17 +468,21 @@ button {
   body {
     background-color: darkslateblue;
     width: 100%;
-    font-size: 1em;
+    font-size: 100%;
+  
   }
   .header {
-    width: auto;
-    display: inline;
+    display: inline-block;
+    margin: auto;
+    height: 0%;
   }
   h1 {
-    font-size: 1.2em;
-    margin: none;
-    padding: none;
+    font-size: 5em;
   }
+nav {
+  display: block;
+}
+
   .intro {
     display: block;
   }
