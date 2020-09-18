@@ -351,6 +351,7 @@
 
 /* font-family: 'Lobster', cursive;
 font-family: 'Montserrat', sans-serif; */
+
 html {
   font-size: 62.5%;
 }
@@ -361,7 +362,6 @@ body {
   background-color: #cce6ff;
   color: #ff9a99;
 }
-
 
 .header {
   background-color: #ffcccc;
@@ -382,6 +382,7 @@ li {
   display: inline-flex;
   list-style-type: none;
 }
+
 .navigation ul li:hover {
   background-color: #ccffe6;
   border: 2px #ccffe6 solid;
@@ -393,7 +394,7 @@ button h3 {
   color: black;
   margin: auto 0; 
   padding: 8px;
-  }
+}
 
 .intro {
   display: inline-flex;
@@ -431,6 +432,7 @@ nav {
   width: 100%;
   flex-flow: row wrap;
 }
+
 .pictures img {
   margin: 1em;
 }
@@ -445,6 +447,7 @@ nav {
   flex-flow: column wrap;
   flex: 1;
 }
+
 footer {
   display: inline-block;
   background-color: #ffcccc;
@@ -461,7 +464,7 @@ footer a img {
 }
 
 button {
-  background-color: blanchedalmond;
+  background-color: #ffffcc;
 }
 
 @media (max-width: 500px) {
@@ -470,22 +473,27 @@ button {
     width: 100%;
     font-size: 100%;
   }
+
   div.header {
     width: auto;
   }
+
   .header {
     display: inline-block;
     margin: auto;
     height: 0%;
     padding: 1.35em;
   }
+
   h1 {
     font-size: 8em;
     width: max-content;
   }
+
   nav {
     display: block;
   }
+
   ul.navigation {
     display: grid;
     margin: auto;
@@ -493,23 +501,29 @@ button {
     padding: 1em;
     width: fit-content;
   }
+
   .intro {
     display: block;
   }
+
   h2 {
     font-size: 9em;
   }
+
   .aboutMe {
     margin: auto;
     text-align: center;
     font-size: .4em;
   }
+
   .aboutMe button {
     font-size: 5em;
   }
+
   p {
     font-size: 6em;
   }
+
   .pictures div {
     margin: 0;
     font-size: 2em;
@@ -525,36 +539,45 @@ button {
     width: 13%;
     margin-top: 2em;
   }
+  
 }
+
 @media (max-width: 800px) and (min-width: 501px) {
   body {
-    background-color: grey;
+    background-color: #ccccff;
   }
+
   h1 {
     width: max-content;
     font-size: 2em;
   }
+
   .intro {
     display: block;
     margin-top: 5.5em;
   }
+
   .pictures div {
     margin: 3rem;
   }
+
   ul.navigation {
     display: grid;
     margin: auto;
     padding: .5em;
     position: relative;
   } 
+
   .aboutMe {
     text-align: center;
     color: beige;
     margin: auto;
     font-size: 45%;
   }
+
   footer a img {
     width: 12%;
-    margin-top: .5em;
+    margin-top: .7em;
   }
+
 }
