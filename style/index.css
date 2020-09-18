@@ -536,6 +536,7 @@ button {
   }
   .intro {
     display: block;
+    margin-top: 5.5em;
   }
   .pictures div {
     margin: 3rem;
@@ -543,7 +544,17 @@ button {
   ul.navigation {
     display: grid;
     margin: auto;
-    font-size: .85em;
     padding: .5em;
+    position: relative;
   } 
+  .aboutMe {
+    text-align: center;
+    color: beige;
+    margin: auto;
+    font-size: 45%;
+  }
+  footer a img {
+    width: 12%;
+    margin-top: .5em;
+  }
 }
